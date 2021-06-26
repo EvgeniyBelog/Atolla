@@ -4,39 +4,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
   <link type="text/css" rel="stylesheet" href="style.css"/>
   <title>Atolla</title>
  </head>
+
  <body>
   <header class="header">
    <div class="container">
-    <div class="header__top">
-      <div class="main-menu">
-       <div class="header__logo">
-         <img src=Images/Rectangle.png>
-       </div>
-       <nav class="nav">
-        <a class="nav-link" href="#">Produts</a>
-        <a class="nav-link" href="#">Plans</a>
-        <a class="nav-link" href="#">Ingredients</a>
-        <a class="nav-link" href="#">How it works</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Blog</a>
-       </nav>
-      </div>
-      <div class="auth">
-       <a class="nav-link" href="#">Get Started</a>
-       <a class="nav-link" href="#">Sign it</a>
-      </div>
+    <div class="header__inner">
+      <a class="header__logo" href="#">
+        <img class="logo__img" src=images/Logo.png alt="Logo">
+      </a>
+      <nav class="menu">
+       <ul class="menu__list">
+        <li class="menu__item">
+          <a class="nav-link" href="#">Produts</a>
+        </li>
+        <li class="menu__item">
+          <a class="nav-link" href="#">Plans</a>
+        </li>
+        <li class="menu__item">
+          <a class="nav-link" href="#">Ingredients</a>
+        </li>
+        <li class="menu__item">
+          <a class="nav-link" href="#">How it works</a>
+        </li>
+        <li class="menu__item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="menu__item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+       </ul>
+      </nav>
+      <ul class="auth__list">
+        <li class="menu__item">
+          <a class="nav-link" href="#">Get Started</a>
+        </li>
+        <li class="menu__item">
+          <a class="nav-link" href="#">Sign it</a>
+        </li>      
     </div> 
-   </div>
-   </div>
+   </div>   
   </header>
  
   <section class="top">
    <div class="container">
-    <div class="top__content">
+    <div class="top__inner">
      <h2 class="top__text">Get Summer Skincare Ready</h2> 
      <h1 class="top__title">Custom formulas to support your unique needs.</h1>
      <a class="main__btn" href="#">Take the Quiz</a>
@@ -44,190 +59,229 @@
    </div>
   </section>
 
-  <div class="intro__nav">
+  <section class="subtop">
    <div class="container">
-    <div class="intro__nav-links">
-     <a class="intro__nav-link" href="#">Vegan</a>
-     <a class="intro__nav-link" href="#">Cruelty-free</a>
-     <a class="intro__nav-link" href="#">Allergy Friendly</a>
-     <a class="intro__nav-link" href="#">Responsibly Farmed</a>
-     <a class="intro__nav-link" href="#">No added fragrance</a>
+     <div class="subtop__inner">
+       <nav class="menu subtop__menu">
+         <ul class="subtop__menu-list">
+           <li class="menu__item">
+            <a class="subtop__nav-link" href="#">Vegan</a>
+           </li>
+           <li class="menu__item">
+            <a class="subtop__nav-link" href="#">Cruelty-free</a>
+           </li>
+           <li class="menu__item">
+            <a class="subtop__nav-link" href="#">Allergy Friendly</a>
+           </li>
+           <li class="menu__item">
+            <a class="subtop__nav-link" href="#">Responsibly Farmed</a>
+           </li>
+           <li class="menu__item">
+            <a class="subtop__nav-link" href="#">No added fragrance</a>
+           </li>
+         </ul>
+       </nav>
+     </div>
     </div>
    </div>
-  </div>
+  </section>
  
-   <section class="about">
-    <div class="about-img">
-     <img src="Images/About.png" alt="">
-    </div>
-    <div class="about-content">
-     <h2 class="about__top-title">reinventing the skincare model</h2>
-     <h1 class="about__title">Do more with fewer products.</h1>
-     <div class="about-text">
-      <p>We're over the endless trial and error to find what works. Aisles of products, thousands of ingredients to choose from — it’s no wonder 1 in 2 people are combining products that could cause adverse effects to their skin.</p>
-      <p>Our personalized approach identifies your unique needs to create a custom routine with the best formulas for your skin right now, so you can do more with fewer products.</p>
-     </div>
-      <a class="secondary-btn" href="#">ABOUT US </a>
+    <section class="about">
+    <div class="container">
+      <div class="about__inner">
+        <img class="about__img" src="images/About.png" alt="About">
+        <div class="about__content">
+         <h2 class="about__top-title">reinventing the skincare model</h2>
+         <h3 class="about__title">Do more with fewer products.</h3>
+         <div class="about__textbox">
+          <p class="about__text">
+            We're over the endless trial and error to find what works. Aisles of products, thousands of ingredients to choose from — it’s no wonder 1 in 2 people are combining products that could cause adverse effects to their skin.
+          </p>
+          <p class="about__text">
+            Our personalized approach identifies your unique needs to create a custom routine with the best formulas for your skin right now, so you can do more with fewer products.
+          </p>
+         </div>
+          <a class="secondary-btn" href="#">ABOUT US </a>
+        </div>
+      </div> 
     </div>
    </section>
 
    <section class="subscription">
-    <div class="container">
-     <h1 class="subscription-text">A monthly subscription for personalized <i>skincare and guidance</i> to simplify your daily routine.</h1> 
-    </div>
-    </section>  
+     <h3 class="subscription__text">A monthly subscription for personalized <i>skincare and guidance</i> to simplify your daily routine.</h1> 
+   </section>  
  
    <section class="products">
     <div class="container">
-     <h1 class="products__title">Introducing Atolla custom routines</h1>
-     <a class="main__btn" href="#">customize your routine </a>
-     <div class="product">
-      <div class="product-cart">
-        <img src="Images/Product1.png" alt="">
-        <h3 class="product-title">The Ritual</h3>
-        <h4 class="product-consist">Cleanser + Serum + Moisturizer</h4>
-        <p class="product-text">Custom, complementary, and oh so simple. Your personalized products work better together to increase routine effectiveness and support your skin goals.</p>
+      <div class="products__inner">
+       <div class="products__titlebox">
+          <h3 class="products__title">Introducing Atolla custom routines</h3>
+          <a class="main__btn products__button" href="#">customize your routine </a>
+       </div>
+       <div class="product">
+        <div class="product__cart">
+          <img class="product__img" src="images/Product1.png" alt="">
+          <h3 class="product__cart-title">The Ritual</h3>
+          <h4 class="product__cart-consist">Cleanser + Serum + Moisturizer</h4>
+          <p class="product__cart-text">Custom, complementary, and oh so simple. Your personalized products work better together to increase routine effectiveness and support your skin goals.</p>
+        </div>
+        <div class="product__cart">
+          <img class="product__img" src="images/Product2.png" alt="">
+          <h3 class="product__cart-title">The Serum</h3>
+          <p class="product__cart-text">A daily-use serum that delivers a powerful dose of actives to your skincare routine to help you reach all of your skin goals.</p>
+        </div>
+        <div class="product__cart">
+          <img class="product__img" src="images/Product3.png" alt="">
+          <h3 class="product__cart-title">The Boost</h3>
+          <h4 class="product__cart-consist">Serum + Moisturizer</h4>
+          <p class="product__cart-text">Boost your natural glow with a double-action duo that lets you use more actives without conflict and pair ingredients that complement each other's effects.</p>
+        </div>
+        <div class="product__cart">
+          <img class="product__img" src="images/Product4.png" alt="">
+          <h3 class="product__cart-title">The Base</h3>
+          <h4 class="product__cart-consist">Cleanser + Serum</h4>
+          <p class="product__cart-text">A good skin day starts with a good base. Our pH-balancing custom cleanser gives your unique skin a fresh foundation so your custom serum can work even harder on targeting your goals.</p>
+        </div>
+       </div>
       </div>
-      <div class="product-cart">
-        <img src="Images/Product2.png" alt="">
-        <h3 class="product-title">The Serum</h3>
-        <p class="product-text">A daily-use serum that delivers a powerful dose of actives to your skincare routine to help you reach all of your skin goals.</p>
-      </div>
-      <div class="product-cart">
-        <img src="Images/Product3.png" alt="">
-        <h3 class="product-title">The Boost</h3>
-        <h4 class="product-consist">Serum + Moisturizer</h4>
-        <p class="product-text">Boost your natural glow with a double-action duo that lets you use more actives without conflict and pair ingredients that complement each other's effects.</p>
-      </div>
-      <div class="product-cart">
-        <img src="Images/Product4.png" alt="">
-        <h3 class="product-title">The Base</h3>
-        <h4 class="product-consist">Cleanser + Serum</h4>
-        <p class="product-text">A good skin day starts with a good base. Our pH-balancing custom cleanser gives your unique skin a fresh foundation so your custom serum can work even harder on targeting your goals.</p>
-      </div>
-     </div>
     </div>
    </section>
 
    <section class="custom">
     <div class="container">
-     <div class="custom-title">
+     <div class="custom__title">
       <h2>Custom made to address your skin needs:</h2>
      </div>
-     <div class="custom-content">
-       <table class="custom-table">
-         <tr>
-          <td><img src="Images/Red Marks.svg" alt=""> <p>Red Marks</p></td>
-          <td><img src="Images/Daily Skin Health.svg" alt=""> <p>Daily Skin Health</p></td>
-          <td><img src="Images/Breakouts.svg" alt=""> <p>Breakouts</p></td>
-          <td><img src="Images/Discoloration.svg" alt=""> <p>Discoloration / Dark Spots</p></td>
-          <td><img src="Images/Dryness.svg" alt=""> <p>Dryness</p></td>
-        </tr>
-        <tr>
-        <td><img src="Images/Redness.svg" alt=""><p>Redness</p></td>
-        <td><img src="Images/Sun Damage.svg" alt=""><p>Sun Damage</p></td>
-        <td><img src="Images/Wrinkles.svg" alt=""><p>Wrinkles / Fine Lines</p></td>
-        <td><img src="Images/Clogged Pores.svg" alt=""><p>Clogged Pores</p></td>
-        <td><img src="Images/Oiliness.svg" alt=""><p>Oiliness</p></td>
-       </table>
+     <div class="custom__content">
+       <div class="custom__contentbox">
+        <img class="custom__contentbox-img" src="images/Red Marks.svg" alt="Red Marks">
+        <p class="custom__contentbox-text">Red Marks</p>
+       </div>
+       <div class="custom__contentbox">
+        <img class="custom__contentbox-img" src="images/Daily Skin Health.svg" alt="Daily Skin Health">
+        <p class="custom__contentbox-text">Daily Skin Health</p>
+       </div>
+       <div class="custom__contentbox">
+        <img class="custom__contentbox-img" src="images/Breakouts.svg" alt="Breakouts">
+        <p class="custom__contentbox-text">Breakouts</p>
+       </div>
+       <div class="custom__contentbox">
+        <img class="custom__contentbox-img" src="images/Discoloration.svg" alt="Discoloration">
+        <p class="custom__contentbox-text">Discoloration</p>
+       </div>
+       <div class="custom__contentbox">
+        <img class="custom__contentbox-img" src="images/Dryness.svg" alt="Dryness">
+        <p class="custom__contentbox-text">Dryness</p>
+       </div>
+       <div class="custom__contentbox">
+        <img class="custom__contentbox-img" src="images/Redness.svg" alt="Redness">
+        <p class="custom__contentbox-text">Redness</p>
+       </div>
+       <div class="custom__contentbox">
+        <img class="custom__contentbox-img" src="images/Sun Damage.svg" alt="Sun Damage">
+        <p class="custom__contentbox-text">Sun Damage</p>
+       </div>
+       <div class="custom__contentbox">
+        <img class="custom__contentbox-img" src="images/Wrinkles.svg" alt="Wrinkles">
+        <p class="custom__contentbox-text">Wrinkles</p>
+       </div>
+       <div class="custom__contentbox">
+        <img class="custom__contentbox-img" src="images/Clogged Pores.svg" alt="Clogged Pores">
+        <p class="custom__contentbox-text">Clogged Pores</p>
+       </div>
+       <div class="custom__contentbox">
+        <img class="custom__contentbox-img" src="images/Oiliness.svg" alt="Oiliness">
+        <p class="custom__contentbox-text">Oiliness</p>
+       </div>       
      </div>
     </div>
    </section>
 
    <section class="getstarted">
      <div class="container">
-      <div class="getstarted__text">
+      <div class="getstarted__titlebox">
         <h2 class="getstarted__top-title">data-driven with a human touch</h2>
-        <h1 class="getstarted__title">Included with your monthly routine</h1>
-        <p>You’re not alone in your skin journey. We’ll be there every step of the way with expert guidance.</p>
-      </div>
-      <div class="getstarted-btn">
-        <a class="main__btn" href="#">GET STARTED</a>
-      </div>
-      <div class="getstarted__content">
-        <div class="skintest">
-         <div class="getstarted__content-img">
-           <img src="Images/get started1.png" alt="">
-         </div>
-          <div class="getstarted__content-text">
-           <h2>SKIN TEST</h2>
-           <p>At-home assessment to make sure your formulas are up-to-date with your current needs</p>
-          </div>
-          </div>
-        <div class="skincaremanager">
-          <div class="getstarted__content-img">
-           <img src="Images/get started2.png" alt="">
-          </div>
-          <div class="getstarted__content-text">
-           <h2>SKINCARE MANAGER</h2>
-           <p>Data-driven tips on how and when to use your non-Atolla products for better routine effectiveness</p>
-          </div>
-          </div>
-        <div class="estheticianappointment">
-          <div class="getstarted__content-img">
-           <img src="Images/get started3.png" alt="">
-          </div>
-          <div class="getstarted__content-text">
-           <h2>ESTHETICIAN APPOINTMENT</h2>
-           <p>15-minute virtual call for expert advice on your formulas and routine</p>
-          </div>
+        <h3 class="getstarted__title">Included with your monthly routine</h3>
+        <p class="getstarted__text">You’re not alone in your skin journey. We’ll be there every step of the way with expert guidance.</p>
+        <a class="main__btn getstarted__button" href="#">GET STARTED</a>
+     </div>
+     <div class="getstarted__content">
+       <div class="getstarted__contentbox">
+        <img class="getstarted__content-img" src="images/get started1.png" alt="">
+        <div class="getstarted__content-text">
+          <h2>SKIN TEST</h2>
+          <p>At-home assessment to make sure your formulas are up-to-date with your current needs</p>
         </div>
-      </div>
+       </div>
+       <div class="getstarted__contentbox">
+         <img class="getstarted__content-img" src="images/get started2.png" alt="">
+          <div class="getstarted__content-text">
+          <h2>SKINCARE MANAGER</h2>
+          <p>Data-driven tips on how and when to use your non-Atolla products for better routine effectiveness</p>
+         </div>
+       </div>
+       <div class="getstarted__contentbox">
+         <img class="getstarted__content-img" src="images/get started3.png" alt="">
+          <div class="getstarted__content-text">
+          <h2>ESTHETICIAN APPOINTMENT</h2>
+          <p>15-minute virtual call for expert advice on your formulas and routine</p>
+         </div>
+        </div>
+     </div>
      </div>
    </section>
 
    <section class="howitwork">
-     <div class="howitwork-img">
-       <img src="Images/how it works.png" alt="">
-     </div>
-     <div class="howitwork-text">
-       <h2>HOW IT WORKS</h2>
-       <ol>
-         <li>Create your custom formulas</li>
-         <li>Use your Atolla routine daily</li>
-         <li>Review and adapt</li>
-       </ol>
-       <a class="secondary-btn" href="#">LEARN MORE</a>
-     </div>
-   </section>
-
-   <section class="sustainability">
-     <div class="sustainability-content">
-       <h2>SUSTAINABILITY</h2>
-        <div class="sustainability-content__text">
-        <h1>Just what you need, when you need it.</h1>
-        <p>Because mass skincare relies on trial and error to find what works, the average consumer ends up throwing away $250 of half-used beauty products each year. That’s $20,000 in a lifetime.</p>
-        <p>We adapt your formulas each month as your skin changes, which means you can avoid buying large quantities of product you won't finish and focus on supporting your current skin needs with a simplified daily routine.</p>
-       </div>
-       <h2>START YOUR ASSESSMENT</h2>
-      </div>
-      <div class="sustainability-img">
-        <img src="Images/sustainability.png" alt="">
+     <div class="container">
+       <div class="howitwork__inner">         
+          <img class="howitwork__inner-img" src="images/how it works.png" alt="how it works">
+           <div class="howitwork__inner-content">
+             <div class="howitwork__inner-textbox">
+               <h2>HOW IT WORKS</h2>
+               <ol class="howitwork__inner-list">
+                 <li class="howitwork__inner-item">1. Create your custom formulas</li>
+                 <li class="howitwork__inner-item">2. Use your Atolla routine daily</li>
+                 <li class="howitwork__inner-item">3. Review and adapt</li>
+               </ol>
+               <a class="secondary-btn" href="#">LEARN MORE</a>
+             </div>
+           </div>
+         <div class="howitwork__inner-content">
+          <div class="howitwork__inner-textbox sustainability">
+           <h2>SUSTAINABILITY</h2>            
+            <h3>Just what you need, when you need it.</h3>
+            <p class="howitwork__inner-text">Because mass skincare relies on trial and error to find what works, the average consumer ends up throwing away $250 of half-used beauty products each year. That’s $20,000 in a lifetime.</p>
+            <p class="howitwork__inner-text">We adapt your formulas each month as your skin changes, which means you can avoid buying large quantities of product you won't finish and focus on supporting your current skin needs with a simplified daily routine.</p>
+            <h2>START YOUR ASSESSMENT</h2>
+          </div>
+         </div> 
+            <img class="howitwork__inner-img" src="images/sustainability.png" alt="">
+        </div>
       </div>
    </section>
 
    <section class="reviews">
     <div class="container">
-     <div class="reviews-title">
-       <h2>REVIEWS</h2>
-       <h1>Real people, real results</h1>
-       <a class="secondary-btn" href="#">SEE MORE REVIEWS</a>
+     <div class="reviews__titlebox">
+       <h2 class="reviews__top-title">REVIEWS</h2>
+       <h3 class="reviews__title">Real people, real results</h3>
+       <a class="secondary-btn reviews__button" href="#">SEE MORE REVIEWS</a>
      </div>
-     <div class="reviews-slider">
-       <div class="reviews-slider__card">
+     <div class="reviews__slider">
+       <div class="reviews__slider-card">
           <div class="photo">
-           <img src="Images/Photo 1.png" alt="">
+           <img src="images/Photo 1.png" alt="">
            <div class="name">
              <h2>Olivia G.</h2>
              <h2>Astoria, NY</h2>
            </div>
           </div>
           <div class="rating">
-            <img src="Images/Star.svg" alt="">
-            <img src="Images/Star.svg" alt="">
-            <img src="Images/Star.svg" alt="">
-            <img src="Images/Star.svg" alt="">
-            <img src="Images/Star.svg" alt="">
+            <img src="images/Star.svg" alt="Star">
+            <img src="images/Star.svg" alt="Star">
+            <img src="images/Star.svg" alt="Star">
+            <img src="images/Star.svg" alt="Star">
+            <img src="images/Star.svg" alt="Star">
           </div>
           <div class="age">
             <p>AGE: 25-30</p>
@@ -246,7 +300,7 @@
             </div>
           </div>
         </div>
-        <div class="reviews-slider__card">
+        <div class="reviews__slider-card">
           <div class="photo">
            <img src="Images/Photo 2.png" alt="">
            <div class="name">
@@ -255,11 +309,11 @@
            </div>
           </div>
           <div class="rating">
-            <img src="Images/Star.svg" alt="">
-            <img src="Images/Star.svg" alt="">
-            <img src="Images/Star.svg" alt="">
-            <img src="Images/Star.svg" alt="">
-            <img src="Images/Star.svg" alt="">
+            <img src="images/Star.svg" alt="">
+            <img src="images/Star.svg" alt="">
+            <img src="images/Star.svg" alt="">
+            <img src="images/Star.svg" alt="">
+            <img src="images/Star.svg" alt="">
           </div>
           <div class="age">
             <p>AGE: 20-25</p>
@@ -276,7 +330,7 @@
             </div>
           </div>
         </div>
-        <div class="reviews-slider__card">
+        <div class="reviews__slider-card">
           <div class="photo">
            <img src="Images/Photo 3.png" alt="">
            <div class="name">
@@ -285,11 +339,11 @@
            </div>
           </div>
           <div class="rating">
-            <img src="Images/Star.svg" alt="">
-            <img src="Images/Star.svg" alt="">
-            <img src="Images/Star.svg" alt="">
-            <img src="Images/Star.svg" alt="">
-            <img src="Images/Star.svg" alt="">
+            <img src="images/Star.svg" alt="">
+            <img src="images/Star.svg" alt="">
+            <img src="images/Star.svg" alt="">
+            <img src="images/Star.svg" alt="">
+            <img src="images/Star.svg" alt="">
           </div>
           <div class="age">
             <p>AGE: 25-30</p>
@@ -314,44 +368,38 @@
 
    <section class="brands">
      <div class="container">
-       <div class="brand">
-         <img src="Images/brands 1.png" alt="">
-       </div>
-       <div class="brand">
-        <img src="Images/brands 2.png" alt="">
-       </div>
-       <div class="brand">
-        <img src="Images/brands 3.png" alt="">
-       </div>
-       <div class="brand">
-        <img src="Images/brands 4.png" alt="">
+       <div class="brands__inner">
+         <img class="brand__inner-img" src="images/brands 1.png" alt="">
+         <img class="brand__inner-img" src="images/brands 2.png" alt="">
+         <img class="brand__inner-img" src="images/brands 3.png" alt="">
+         <img class="brand__inner-img" src="images/brands 4.png" alt="">
        </div>
      </div>
    </section>
 
    <section class="blog">
     <div class="container">
-     <div class="blog-title">
-      <h2>BLOG</h2>
-      <h1>From the Skin Lab</h1>
-      <a class="secondary-btn" href="#">READ MORE</a>
-     </div>
-     <div class="blog-content">
-       <div class="blog-content__part">
-        <img src="Images/Blog 1.png" alt="">
-        <h2>Routine</h2>
-        <p>How to Layer Your Skincare Products</p>
+     <div class="blog__inner">
+      <h2 class="blog__inner-title">BLOG</h2>
+      <h3 class="blog__inner-subtitle">From the Skin Lab</h3>
+      <a class="secondary-btn blog__button" href="#">READ MORE</a>
+      <div class="blog__inner-content">
+       <div class="blog__inner-contentbox">
+        <img src="images/Blog 1.png" alt="">
+        <h2 class="blog__contentbox-title">Routine</h2>
+        <p class="blog__contentbox-text">How to Layer Your Skincare Products</p>
        </div>
-       <div class="blog-content__part">
-         <img src="Images/Blog 2.png" alt="">
-         <h2>Routine</h2>
-         <p>How to Avoid Ingredient Conflicts in Your Routine</p>
+       <div class="blog__inner-contentbox">
+         <img src="images/Blog 2.png" alt="">
+         <h2 class="blog__contentbox-title" >Routine</h2>
+         <p class="blog__contentbox-text">How to Avoid Ingredient Conflicts in Your Routine</p>
         </div>
-        <div class="blog-content__part">
-         <img src="Images/Blog 3.png" alt="">
-         <h2>Routine</h2>
-         <p>How to Simplify Your Skincare Routine</p>
+        <div class="blog__inner-contentbox">
+         <img src="images/Blog 3.png" alt="">
+         <h2 class="blog__contentbox-title">Routine</h2>
+         <p class="blog__contentbox-text">How to Simplify Your Skincare Routine</p>
         </div>
+      </div>
      </div>
     </div>
    </section>
@@ -359,48 +407,66 @@
    <footer class="footer">
     <div class="container">
      <div class="footer__top">
-      <div class="newsletter">
-        <div class="newsletter-text">
-         <h2>NEWSLETTER</h2>
-         <h1>Skincare tips and tricks,<br>delivered to your inbox.</h1>
-        </div>
-       <input class="footer__input" id=input type="email" placeholder="Email adress">
-       <!-- <label for="input" placeholder="Email adress">vvbbnbbm,bbbbbb,bbmb</label> -->
-       <button class="footer-btn">Join</button> 
+      <div class="footer__top-newsletter">
+        <h2 class="newsletter__title">NEWSLETTER</h2>
+        <h3 class="newsletter__subtitle">Skincare tips and tricks,<br>delivered to your inbox.</h3>
+        <form class="footer__form">
+          <input class="footer__input" id=input type="email" placeholder="Email  adress">
+          <button class="footer-btn">Join</button>
+       </form> 
       </div>
       
       <div class="sitemap">
-       <h2>PRODUCTS</h2>
-       <h2>PLANS</h2>
-       <h2>INGREDIENTS</h2>
-       <h2>HOW IT WORKS</h2>
-       <h2>ABOUT</h2>
-       <h2>REVIEWS</h2>
-       <h2>BLOG</h2>
-       <h2>FAQ</h2>
+        <a href="#" >
+          <h2 class="sitemap__link">PRODUCTS</h2>
+        </a>
+        <a href="#" >
+          <h2 class="sitemap__link">PLANS</h2>
+        </a>
+        <a href="#" >
+          <h2 class="sitemap__link">INGREDIENTS</h2>
+        </a>
+        <a href="#" >
+          <h2 class="sitemap__link">HOW IT WORKS</h2>
+        </a>
+        <a href="#" >
+          <h2 class="sitemap__link">ABOUT</h2>
+        </a>
+        <a href="#" >
+          <h2 class="sitemap__link">REVIEWS</h2>
+        </a>
+        <a href="#" >
+          <h2 class="sitemap__link">BLOG</h2>
+        </a>
+        <a href="#" >
+          <h2 class="sitemap__link">FAQ</h2>
+        </a>
       </div>
      
       <div class="contacts">
-       <div class="contacts-top">
-        <div class="contact-top__social">
-          <img src="Images/Instagram.svg" alt=""><a href="">INSTAGRAM</a>
+       <div class="contacts__top">
+        <div class="contact__top-social">
+          <img src="images/Instagram.svg" alt="Instagram">
+          <a class="contact__social-link"href="">INSTAGRAM</a>
         </div>
-        <div class="contact-top__social">
-        <img src="Images/FACEBOOK.svg" alt=""><a href="">FACEBOOK</a>
+        <div class="contact__top-social">
+          <img src="images/FACEBOOK.svg" alt="FACEBOOK">
+          <a class="contact__social-link"href="">FACEBOOK</a>
         </div>
-        <div class="contact-top__social">
-        <img src="Images/TWITTER.svg" alt=""><a href="">TWITTER</a>
+        <div class="contact__top-social">
+          <img src="images/TWITTER.svg" alt="TWITTER">
+          <a class="contact__social-link"href="">TWITTER</a>
         </div>
        </div>
-       <div class="contacts-bottom">
-         <div class="contacts-bottom__adress">
-          <h2>QUESTIONS? CONTACT US</h2>
-          <h2>AT Hello@atolla.co</h2>
+       <div class="contacts__bottom">
+         <div class="contacts__bottom-adress">
+          <h2 class="contacts__bottom-title">QUESTIONS? CONTACT US</h2>
+          <a class="email" href="AT Hello@atolla.com">‪AT Hello@atolla.com</h2>
         </div>
-        <div class="contacts-bottom__adress">
-          <h2>336 W 37th St, Suite 1160</h2>
-          <h2>New York, NY 10018</h2>
-          <h2>‪(516) 430-7562‬</h2>
+        <div class="contacts__bottom-adress">
+          <h2 class="contacts__bottom-title">336 W 37th St, Suite 1160</h2>
+          <h2 class="contacts__bottom-title">New York, NY 10018</h2>
+          <a class="phone" href="5164307562">‪(516) 430-7562‬</a>
         </div>
        </div>
       </div>
@@ -420,6 +486,6 @@
       </div>
      </div>
     </div>
-   </footer>
+   </footer> 
  </body>
 </html>
