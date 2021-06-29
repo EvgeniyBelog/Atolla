@@ -1,6 +1,6 @@
 $('document').ready(function(){
 
-$(function(){
+
 
 $('.reviews__slider').slick({
  arrows:false,
@@ -25,6 +25,6 @@ $('.reviews__slider').slick({
   }]
 });
 
-});
+
 
 });
