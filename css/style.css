@@ -556,6 +556,7 @@ padding-top: 40px;
   text-transform: uppercase;
   margin-top: 2px;
   margin-left: 20px;
+  width: 100%;
 }
 
 .reviews__slider .slick-arrow{
@@ -1176,6 +1177,10 @@ margin: 18px auto;
   padding-bottom: 10px;
 }
 
+.reviews__slider{
+  align-items: center;
+}
+
 .reviews__titlebox {
   margin-bottom: 20px;
 }
@@ -1193,7 +1198,7 @@ margin: 18px auto;
 }
 
 .reviews__slider-card {
-  width: 50%;
+  width: 60%;
   height: 450px;
 }
 
@@ -1212,10 +1217,6 @@ margin: 18px auto;
 .review p {
   font-size: 13px;
   line-height: 20px;
-}
-
-.reviews__slider-card {
-  height: auto;
 }
 
 .review {
@@ -1545,8 +1546,8 @@ text-align: center;
 }
 
 .review {
-  width: 60%;
-  height: 195px;
+  width: 75%;
+  height: 210px;
 }
 
 .review p {
@@ -1555,7 +1556,7 @@ text-align: center;
 }
 
 .skingoals {
-  width: 60%;
+  width: 75%;
 }
 
 .skingoals-title p {
