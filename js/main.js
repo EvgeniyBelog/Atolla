@@ -1,5 +1,7 @@
-$(function(){$(document).ready(function(){
-        
+$(document).ready(function(){
+
+$(function(){
+
 $('.reviews__slider').slick({
  arrows:false,
  slidesToShow: 3,
@@ -22,5 +24,7 @@ $('.reviews__slider').slick({
         }       
   }]
 });
-})
+
+});
+
 });
