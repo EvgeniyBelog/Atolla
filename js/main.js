@@ -1,4 +1,5 @@
-$(function(){
+$(function(){$(document).ready(function(){
+        
 $('.reviews__slider').slick({
  arrows:false,
  slidesToShow: 3,
@@ -21,5 +22,5 @@ $('.reviews__slider').slick({
         }       
   }]
 });
-
+})
 });
