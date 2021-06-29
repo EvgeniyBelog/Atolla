@@ -667,6 +667,7 @@ display: flex;
   border: 1px solid #FFFFFF;
   border-radius: 25px 0px 0px 25px;
   outline: none;
+  color: #ffffff;
 }
 
 .footer__input::placeholder{
